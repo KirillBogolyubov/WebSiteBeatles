@@ -55,6 +55,13 @@ body {
     height: 100%;
 }
 
+.beatles{
+    text-decoration: none;
+    justify-content: space-between;
+    margin-left: 1rem;
+    color: black;
+}
+
 .nav_link_john{
     text-decoration: none;
     justify-content: space-between;
@@ -81,6 +88,12 @@ body {
     justify-content: space-between;
     margin-left: 1rem;
     color: black;
+}
+
+.beatles:hover{
+    border-bottom: 3px solid black;
+    padding: 0 0 4;
+    margin-top: 5px;
 }
 
 .nav_link_john:hover{
