@@ -1,0 +1,212 @@
+.container{
+     width: 100%;
+     padding-left: 1rem;
+     max-width: 1200px;
+     padding-right: 1rem;
+     margin: 0 auto;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: black;
+}
+
+.header{
+    padding: 1.2rem 1rem;
+    position: relative;
+}
+
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(223, 165, 57);
+    padding-bottom: 1rem;
+}
+
+.group{
+    display: flex;
+}
+
+.group_content{
+   padding-left: 9px;
+   margin-top: 3rem;
+}
+
+.group_name{
+    font-size: 40px;
+    color: var(--black);
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.group_about{
+    font-size: 1rem;
+    color: var(--black);
+    opacity: 0.7;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+}
+
+.nav_link_john{
+    text-decoration: none;
+    justify-content: space-between;
+    margin-left: 1rem;
+    color: black;
+}
+
+.nav_link_george{
+    text-decoration: none;
+    justify-content: space-between;
+    margin-left: 1rem;
+    color: black;
+}
+
+.nav_link_paul{
+    text-decoration: none;
+    justify-content: space-between;
+    margin-left: 1rem;
+    color: black;
+}
+
+.nav_link_ringo{
+    text-decoration: none;
+    justify-content: space-between;
+    margin-left: 1rem;
+    color: black;
+}
+
+.nav_link_john:hover{
+    border-bottom: 3px solid rgb(223, 165, 57);
+    padding: 0 0 4;
+    margin-top: 5px;
+}
+
+.nav_link_george:hover{
+    border-bottom: 3px solid rgb(58, 138, 175);
+    padding: 0 0 4;
+    margin-top: 5px;
+}
+
+.nav_link_paul:hover{
+    border-bottom: 3px solid rgb(160, 182, 65);
+    padding: 0 0 4;
+    margin-top: 5px;
+}
+
+.nav_link_ringo:hover{
+    border-bottom: 3px solid rgb(198, 112, 152);
+    padding: 0 0 4;
+    margin-top: 5px;
+}
+
+.intro_body{
+    margin-top: 4rem;
+    font-size: 2rem;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.intro_section{
+    font-size: 1.5rem;
+    margin-left: 0.7rem;
+}
+
+.intro_content{
+    font-size: 0.8rem;
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+}
+
+.btn{
+ margin-top: 1rem;
+margin-bottom: 0rem;
+margin-left: 72rem;
+border: 1px solid black;
+    
+border-radius: 1rem;
+background: none;
+cursor: pointer;
+padding: 0.5rem 1rem;
+
+font-size: 0.6rem;
+color: var(--black);
+text-transform: uppercase;
+text-decoration: none;
+text-align: center;
+opacity: 0.7;
+box-shadow: 0 0 5px black;
+}
+
+.btn:hover{
+    box-shadow: 0 0 20px rgb(223, 165, 57);
+}
+
+.intro_section{
+    font-size: 1rem;
+    opacity: 0.6;
+    font-weight: 400;
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+}
+
+.music{
+    margin-top: 4rem;
+    font-size: 2rem;
+    font-weight: 500;
+    opacity: 0.8;
+    margin-bottom: 5rem;
+}
+
+.album_inner{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 7rem;
+    margin-left: 3rem;
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+    position: relative;
+}
+
+.about_album{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+    margin-left: 5rem;
+    
+    padding-right: 5rem;
+}
+
+.album_title{
+    font-size: 2rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+    opacity: 0.7;
+}
+
+.album_songs{
+    font-size: 1rem;
+    margin-left: 1rem;
+    font-weight: 300;
+    opacity: 0.7;
+}
+
+.album_title_edit{
+    font-size: 1.82rem;
+}
+
+.album_photo{
+    position: relative;
+    width: auto;
+    height: 50%;
+}
+
+
