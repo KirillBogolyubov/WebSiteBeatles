@@ -222,4 +222,42 @@ box-shadow: 0 0 5px black;
     height: 50%;
 }
 
+.footer{
+    background-color: rgb(223, 165, 57);
+    padding: 1.5rem 0;
+}
+
+.footer_info{
+    display: flex;
+    align-items: center;
+}
+
+.footer_inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.copyright{
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    padding-right: 0.5rem;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+}
+
+.contact_link{
+    font-size: 0.8rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    margin-right: 55rem;
+    color: black;
+    border-left: 2px solid black;
+    padding-left: 0.5rem;
+    text-transform: uppercase;
+}
+
 
